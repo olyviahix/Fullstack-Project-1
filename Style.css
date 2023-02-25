@@ -1,0 +1,70 @@
+body {
+    background-image: url("../Images/motocrossstart.jpg");
+    font-family: 'Permanent Marker', cursive;
+    max-height: 100kv;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(184, 175, 175); 
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+    align-self: center;
+    width: 600px;
+    border-radius: 20px;
+    background-color: rgb(194, 16, 16);
+}
+
+.lapTime-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.homepage-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 15px;
+    width: 200px;
+    font-size: 75%;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+ .track-selection {
+    text-align: center;
+    margin-top: 3%;
+ }
+
+ .trackSelectionDropdown {
+    text-align: center;
+    padding: 5px;
+ }
+
+ .lapTimeContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: rgb(139, 136, 136); */
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;;
+}
+
+
+

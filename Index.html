@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homepage</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Assistant:wght@200;300&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+
+    <link rel="stylesheet" href="/Style.css"/>
+
+</head>
+
+<body>
+
+
+	<h1 style="color: rgb(240, 30, 37)" class="title">
+		We Ride
+	</h1>
+
+   <div class="formContainer">
+   <div id="trackContainer" class="trackSelectionDropdown">
+	    <p class="track-selection">Select your track from the given options:
+		    
+	    </p>
+    </div>
+  
+    <form>
+
+        <div class="lapTime-form">
+            <label for="formGroupExampleInput2"></label>
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+        </div>
+        <div class="lapTime-form">
+            <label for="formGroupExampleInput2"></label>
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+        </div>
+        <div class="lapTime-form">
+            <label for="formGroupExampleInput2"></label>
+            <input type="text" class="form-control" id="lapTime" placeholder="Enter Lap Time">
+        </div>
+        
+    </form>
+    <div class="homepage-Submit">
+        <button class="homepage-submit" onclick="submitLapForm()">Submit Lap Time</button> 
+    </div> 
+    
+        <div class="formContainer" id="ltc">
+
+            <div id="lapContainer" class="trackSelectionDropdown">
+                <p class="track-selection">Select your track from the given options:
+                      
+                </p>
+
+                
+            </div>
+            <div class="homepage-Submit">
+                <button class="homepage-submit" id="getLapTime" onclick="getLapTimes()">Get Lap Times</button> 
+            </div> 
+        </div>
+    
+  
+
+    
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script> -->
+    
+    <script src="/Index.js" async defer></script>
+    
+</body>
+
+</html>
